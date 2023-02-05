@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
 body {
     margin: 0;
     background:#ca9e7b;
     text-align: center;
+    font-family: 'Baskervville', serif;
 }
 .topnav {
     margin: 0;
@@ -10,4 +12,12 @@ body {
 }
 .latest-review {
     text-align: left;
+}
+h1 {
+    padding-top: 12px;
+    padding-bottom: 6px
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
 }
