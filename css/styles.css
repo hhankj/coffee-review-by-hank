@@ -11,3 +11,7 @@ body {
 .latest-review {
     text-align: left;
 }
+
+html * {
+    font-family: 'Playfair Display', serif;
+}
