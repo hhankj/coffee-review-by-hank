@@ -1,17 +1,13 @@
 body {
     margin: 0;
-    background:pink;
+    background:#ca9e7b;
     text-align: center;
 }
 .topnav {
     margin: 0;
-    background: red;
-    text-align: center;
+    background: #e9cba7;
+    text-align: center; 
 }
 .latest-review {
     text-align: left;
-}
-
-html * {
-    font-family: 'Playfair Display', serif;
 }
