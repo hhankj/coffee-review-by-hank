@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
 body {
     margin: 0;
     background:#ca9e7b;
     text-align: center;
-    font-family: 'Baskervville', serif;
+    font-family: 'Inter', sans-serif;
 }
 .topnav {
     margin: 0;
@@ -12,6 +12,7 @@ body {
 }
 .page-title{
     text-align: left;
+    font-weight: 500;
 }
 h1 {
     padding-top: 12px;
@@ -20,4 +21,19 @@ h1 {
 .container {
     margin-left: auto;
     margin-right: auto;
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+u {
+    color: black;
+    text-decoration: underline;
 }
