@@ -7,10 +7,21 @@ body {
     font-family: 'Inter', sans-serif;
 }
 .topnav {
-    margin: 0;
     background: #e9cba7;
+    height:40px;
     text-align: center; 
+    margin: 0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
 }
+
+.topnav .hank{
+  left: 100px;
+}
+
 .page-title{
     text-align: left;
     font-weight: 500;
@@ -23,15 +34,14 @@ h1 {
     margin-left: auto;
     margin-right: auto;
 }
-
 a {
     color: brown;
     text-decoration: none;
-}
+} 
 
 a:hover{
     color:#ca9e7b;
-    text-decoration-color: #ca9e7b;
+    text-decoration: none;
 }
 
 u {
